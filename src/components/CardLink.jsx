@@ -4,17 +4,16 @@ export default function CardLink({ title, link, linkImg }) {
       <div
         className="h-full bg-fixed bg-center bg-cover w-full absolute opacity-50 -z-10 bg-gradient-to-r from-sky-950 to-sky-600"
         style={{
-          background:
-            "",
+          background: "",
         }}
       ></div>
       <div
         className="w-full h-full bg-cover bg-center bg-fixed absolute -z-20"
-        style={{backgroundImage:`url(${linkImg})`, filter: "blur(2px)"}}
+        style={{ backgroundImage: `url(${linkImg})`, filter: "blur(2px)" }}
       ></div>
       <h2
         className="m-auto text-4xl text-white font-medium hover:text-gray-400 hover:scale-110 ease-out duration-300  "
-        style={{ letterSpacing: "8px"}}
+        style={{ letterSpacing: "8px" }}
       >
         <a href={link}>{title}</a>
       </h2>

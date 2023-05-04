@@ -2,7 +2,7 @@ export default function DivVideo() {
   return (
     <div className="relative min-h-screen flex">
       <video
-        src="public/video-principal.mp4"
+        src="video-principal.mp4"
         autoPlay={true}
         loop={true}
         muted={true}

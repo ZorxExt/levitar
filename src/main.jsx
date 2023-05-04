@@ -16,12 +16,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <CardLink
       title="TECNOLOGÍA"
       link="https://levit.ar/tecnologia/"
-      linkImg="./public/TecImg.jpg"
+      linkImg="TecImg.jpg"
     ></CardLink>
     <CardLink
       title="PORTAFOLIO"
       link="https://levit.ar/portfolio/"
-      linkImg="./public/PortafolioImg.jpg"
+      linkImg="PortafolioImg.jpg"
     ></CardLink>
     <Card
       title="NOS ELIGEN"
@@ -30,12 +30,12 @@ ReactDOM.createRoot(document.getElementById("root")).render(
     <CardLink
       title="SERVICIOS"
       link="https://levit.ar/portfolio/"
-      linkImg="./public/ServiciosImg.jpg"
+      linkImg="ServiciosImg.jpg"
     ></CardLink>{" "}
     <CardLink
       title="CONTACTO"
       link="https://levit.ar/portfolio/"
-      linkImg="./public/ContactoImg.jpg"
+      linkImg="ContactoImg.jpg"
     ></CardLink>{" "}
     <CardLink
       title="
@@ -43,7 +43,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       PERSPECTIVA
       VOLUMEN"
       link="https://levit.ar/portfolio/"
-      linkImg="./public/CompoImg2.jpeg"
+      linkImg="/CompoImg2.jpeg"
     ></CardLink>
     <Footer></Footer>
   </React.StrictMode>
