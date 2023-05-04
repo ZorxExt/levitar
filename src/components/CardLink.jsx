@@ -1,6 +1,6 @@
 export default function CardLink({ title, link, linkImg }) {
   return (
-    <div className="h-56 lg:h-80 relative flex text-center m-5 rounded-md overflow-hidden">
+    <div className="h-56 lg:h-80 relative flex text-center m-5 rounded-md overflow-hidden shadow-cuteWhite shadow-sm">
       <div
         className="h-full bg-fixed bg-center bg-cover w-full absolute opacity-50 -z-10 bg-gradient-to-r from-sky-950 to-sky-600"
         style={{
