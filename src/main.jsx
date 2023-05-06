@@ -9,7 +9,9 @@ import Footer from "./components/Footer";
 import TecCard from "./components/TecCard";
 import ServiceCard from "./components/ServiceCard";
 import ContactCard from "./components/ContactCard";
-import FolioCard from "./components/folioCard";
+import FolioCard from "./components/FolioCard";
+
+
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <DivVideo></DivVideo>
