@@ -3,12 +3,13 @@ import ReactDOM from "react-dom/client";
 import "./index.css";
 import DivVideo from "./components/DivVideo.jsx";
 import CardLink from "./components/CardLink.jsx";
+import CardLinkXL from "./components/CardLinkXL";
 import Card from "./components/Card.jsx";
 import Footer from "./components/Footer";
 import TecCard from "./components/TecCard";
 import ServiceCard from "./components/ServiceCard";
 import ContactCard from "./components/ContactCard";
-
+import FolioCard from "./components/folioCard";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <DivVideo></DivVideo>
@@ -21,7 +22,11 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       linkImg="TecImg.jpg"
       cardComponent={<TecCard></TecCard>}
     ></CardLink>
-    <CardLink title="PORTAFOLIO" linkImg="PortafolioImg.jpg"></CardLink>
+    <CardLinkXL
+      title="PORTAFOLIO"
+      linkImg="PortafolioImg.jpg"
+      cardComponent={<FolioCard></FolioCard>}
+    ></CardLinkXL>
     <Card
       title="NOS ELIGEN"
       text="PERSONAS Y EMPRESAS CON PROYECTOS DE ALTO VUELO"
@@ -35,13 +40,6 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       title="CONTACTO"
       linkImg="ContactoImg.jpg"
       cardComponent={<ContactCard></ContactCard>}
-    ></CardLink>
-    <CardLink
-      title="
-      COMPOSICIÓN
-      PERSPECTIVA
-      VOLUMEN"
-      linkImg="/CompoImg2.jpeg"
     ></CardLink>
     <Footer></Footer>
   </React.StrictMode>
