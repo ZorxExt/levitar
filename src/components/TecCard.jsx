@@ -8,7 +8,7 @@ export default function TecCard() {
         <p className="lg:text-3xl lg:font-bold center">
           4k - 30fps <br /> 2.7k - 60fps
         </p>
-        <a href="" className="text-xl bg-cuteBlack text-cuteWhite p-2 rounded-xl shadow shadow-sky-600 text-center hover:scale-110 ease-out duration-300">Conoce mas</a>
+        <a href="https://www.dji.com/mini-2" target="_blank" className="text-xl bg-cuteBlack text-cuteWhite p-2 rounded-xl shadow shadow-sky-600 text-center hover:scale-110 ease-out duration-300">Conoce mas</a>
       </span>
     </div>
   );
