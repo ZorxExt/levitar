@@ -42,6 +42,8 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       title="CONTACTO"
       linkImg="ContactoImg.jpg"
       cardComponent={<ContactCard></ContactCard>}
+      cardBG={"faro.jpeg"}
+      isWhite = {true}
     ></CardLink>
     <Footer></Footer>
   </React.StrictMode>

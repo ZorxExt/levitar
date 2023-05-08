@@ -4,10 +4,6 @@ import { BsArrowRightCircle } from "react-icons/bs";
 export default function CardLinkXL({ title, linkImg, cardComponent }) {
   const [clicked, setClicked] = useState(false);
 
-const initialHeightClass = "h-0 overflow-hidden";
-const finalHeightClass = "h-auto";
-
-  const [height, setHeight] = useState("height: 0px");
 
   return (
     <div>
@@ -33,8 +29,6 @@ const finalHeightClass = "h-auto";
           <a
             onClick={() => {
               setClicked(!clicked);
-
-              setHeight(clicked ? initialHeightClass : finalHeightClass);
             }}
           >
             {title}
