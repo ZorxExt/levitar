@@ -25,7 +25,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
       cardComponent={<TecCard></TecCard>}
     ></CardLink>
     <CardLinkXL
-      title="PORTAFOLIO"
+      title="PORTFOLIO"
       linkImg="PortafolioImg.jpg"
       cardComponent={<FolioCard></FolioCard>}
     ></CardLinkXL>
